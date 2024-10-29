@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" ></script>
+    <script type="java/text">const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))</script>
+    <div class="container" style="background-color: brown;">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>hello</h1>
+            </div>
+            <div class="col-md-5">
+                <h1>hello</h1>
+            </div>
+            <h3><abbr title="Omkar kakde">OK</abbr></h3> <!-- WHEN we hover to ok then the title shows -->
+        </div>
+    </div>
+    <div class="list.unstyled">
+      <ul>
+        <li>uyyuyu</li>
+        <li>ghgh</li>
+      </ul>
+      <ol>
+        <li>dgg</li>
+        <li>cdfd</li>
+      </ol>
+    </div><br>
+    <div class="container-fluid" style="border: 2px solid black;">
+      <div class="row">
+       <img src="/images/Luggage_978x1472._SY530_QL85_FMpng_.png" alt=""  class="img-fluid">
+       <!-- use this img-fluid class and container-fluid to get the image in full screen size 100% -->
+      </div>
+    </div><br>
+    <div class="container">
+      <background-img/: url></background-img>
+    </div><br>
+     <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+      <img src="/images/Apparel__978x1472._SY530_QL85_FMpng_ (1).png" alt="" class="img-thumbnail">
+        </div>
+        <div class="col-md-3">
+          <img src="/images/Apparel__978x1472._SY530_QL85_FMpng_.png" alt="" class="img-thumbnail">
+            </div>
+            <div class="col-md-3">
+              <img src="/images/Luggage_978x1472._SY530_QL85_FMpng_.png" alt="" class="img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                  <img src="/images/Apparel__978x1472._SY530_QL85_FMpng_ (1).png" alt="" class="img-thumbnail">
+                    </div>
+        <!-- use img-thumnail class to get the image with border -->
+      </div>
+     </div><br>
+     <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="/images/Shoes__978x1472._SY530_QL85_FMpng_.png" alt="" class="rounded">
+          <!-- rounded class gives curved borders to the image -->
+        </div>
+      </div>
+     </div>
+     <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+  Popover on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+  Popover on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+  Popover on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+  Popover on left
+</button>
+     
+        
+          <img src="/images/Shoes__978x1472._SY530_QL85_FMpng_.png" alt="" class="rounded float-start">
+          <!-- rounded float-start class gives curved borders to the image and the image goes to the left side -->
+          <img src="/images/Shoes__978x1472._SY530_QL85_FMpng_.png" alt="" class="rounded float-end">
+          <!-- rounded float-start class gives curved borders to the image and the image goes to the right side -->
+          <img src="/images/Shoes__978x1472._SY530_QL85_FMpng_.png" alt="" class="rounded mx-auto d-block border border-5 border-danger">
+          <!-- rounded float-start class gives curved borders to the image and the image goes to the center also write border
+           two times to get border -->
+    
+  </body>
+  
+</html>

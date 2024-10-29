@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+#headd {
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: red;
+}
+
+#main{
+    border: 2px solid black;
+    width: 1540px;
+    height: 30px;
+    display: flex;
+}
+
+.o1{
+    width: 385px;
+    height: 30px;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+.o2{
+    width: 385px;
+    height: 30px;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+
+.o3{
+    width: 385px;
+    height: 30px;
+    text-align: center;
+    background-color: brown;
+
+}
+.o4{
+    width: 385px;
+    height: 30px;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+.o1:hover{
+    background-color: beige;
+    font-size: 25px;
+}
+.o2:hover{
+    background-color: goldenrod;
+    font-size: 25px;
+}
+.o3:hover{
+    background-color: seagreen;
+    font-size: 25px;
+}
+.o4:hover:hover{
+    background-color: blanchedalmond;
+    font-size: 25px;
+}
+#banner{
+    margin-left: 20px;
+}
+#topp{
+    font-size: 50px;
+    margin-left: 420px;
+}
+#deals{
+    display: flex;
+    justify-content: space-evenly;
+}
+

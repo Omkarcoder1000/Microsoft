@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: auto;
+    height: 40px;
+    display: flex;
+    background-color: brown;
+}
+.mto{
+    margin-left: 1000px;
+    margin-top: 10px;
+    color: white;
+}
+.mon{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+#seconds{
+    width: auto;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+}
+.seo{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.seto{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.se3{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.ime{
+    margin-left: 200px;
+}
+.lef1{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.lef2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.lef3{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#thirds{
+    width: auto;
+    height: 400px;
+    background-image: url(/images/bread.jpeg);
+    background-size: contain;
+    position: relative;
+}
+.t1{
+    color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 25px;
+    position: absolute;
+    
+}
+.i1{
+    margin-left: 250px;
+}
+#last{
+    width: auto;
+    height: 350px;
+    background-color: brown;
+    position: relative;
+}
+.l1{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 35%;
+}
+.l2{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 25%;
+}
+.l3{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 50px;
+}
